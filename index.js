@@ -26,7 +26,7 @@ app.get('/download/:filename', (req, res) => {
 
 app.get('/api/version-info', (req, res) => {
   const responseData = {
-    "current_version": '1.11.1',
+    "current_version": '2.0.1',
     "app_url": "https://i.diawi.com/YzoZtx",
     "update": [
       {
