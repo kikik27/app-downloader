@@ -27,7 +27,7 @@ app.get('/download/:filename', (req, res) => {
 app.get('/api/version-info', (req, res) => {
   const responseData = {
     "current_version": '2.0.1',
-    "app_url": "https://i.diawi.com/YzoZtx",
+    "app_url": "https://a4.files.diawi.com/app-file/5IMn7kIoIRr9nJA7rm8v.apk",
     "update": [
       {
         "id": 1,
