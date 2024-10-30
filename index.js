@@ -27,7 +27,17 @@ app.get('/download/:filename', (req, res) => {
 app.get('/api/version-info', (req, res) => {
   const responseData = {
     "current_version": '1.11.1',
-    "app_url": "https://i.diawi.com/YzoZtx"
+    "app_url": "https://i.diawi.com/YzoZtx",
+    "update": [
+      {
+        "id": 1,
+        "name": "Fixed Many Bugs"
+      }, 
+      {
+      "id": 2,
+      "name": "Geotaging Image"
+      }
+    ]
   };
 
   console.log(responseData);
