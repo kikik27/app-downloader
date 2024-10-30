@@ -30,12 +30,19 @@ app.get('/api/version-info', (req, res) => {
     "app_url": "https://a3.files.diawi.com/app-file/mwp6mbwmDpPsPybMqqpC.apk",
     "update": [
       {
-        "id": 1,
         "name": "Fixed Many Bugs"
       }, 
       {
-      "id": 2,
       "name": "Geotaging Image"
+      },
+      {
+      "name": "Feature Ticketing"
+      },
+      {
+      "name": "Feature FAQ"
+      },
+      {
+      "name": "Feaature Lisensi"
       }
     ]
   };
